@@ -1,0 +1,161 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Callahan Luke",
+            "address": "6866 4th Court",
+            "email": "calluke0@cornell.edu"
+        },
+        {
+            "id": 2,
+            "name": "Serrena Bob",
+            "address": "59924 Beilfuss Center",
+            "email": "sbob1@usa.gov"
+        },
+        {
+            "id": 3,
+            "name": "Charis Hildred",
+            "address": "21 Straubel Point",
+            "email": "childred2@rakuten.co.jp"
+        },
+        {
+            "id": 4,
+            "name": "Earnest Grover",
+            "address": "7 Pleasure Terrace",
+            "email": "egrover3@apple.com"
+        },
+        {
+            "id": 5,
+            "name": "Annmarie Serenity",
+            "address": "46273 Oak Trail",
+            "email": "aserenity4@tinyurl.com"
+        },
+        {
+            "id": 6,
+            "name": "Vasily Youdell",
+            "address": "0993 Gulseth Avenue",
+            "email": "vyoudell5@globo.com"
+        },
+        {
+            "id": 7,
+            "name": "Justy Geffery",
+            "address": "57305 Crowley Alley",
+            "email": "jgeffery6@last.fm"
+        },
+        {
+            "id": 8,
+            "name": "Pam Katrina",
+            "address": "02 Reinke Plaza",
+            "email": "pkatirna7@netvibes.com"
+        },
+        {
+            "id": 9,
+            "name": "Rebekah Everlee",
+            "address": "4930 Oneill Drive",
+            "email": "reverlee8@51.la"
+        },
+        {
+            "id": 10,
+            "name": "Jprdan Cedric",
+            "address": "30 Westridge Pass",
+            "email": "jcedric9@psu.edu"
+        }
+    ],
+
+    "employees": [
+        {
+            "id": 1,
+            "name": "Bill Whitaker",
+            "address": "1800 Clifford Ave",
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Scarlett Peterpan",
+            "address": "1480 Neverland Way",
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "name": "Kilie Hank",
+            "address": "1780 Lake Trail",
+            "locationId": 1
+        }
+    ],
+
+    "locations": [
+        {
+            "id": 1,
+            "address": "2651 Bahringer Branch",
+            "handicapAccessible": false
+        },
+        {
+            "id": 2,
+            "address": "18389 Buddy Tunnel",
+            "handicapAccessible": true
+        },
+        {
+            "id": 3,
+            "address": "564 Flavio Turnpike",
+            "handicapAccessible": true
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Reese's",
+            "productTypeId": 1
+        },
+        {
+            "id": 2,
+            "name": "Snickers",
+            "productTypeId": 1
+        },
+        {
+            "id": 3,
+            "name": "Jaw Breaker",
+            "productTypeId": 2
+        },
+        {
+            "id": 4,
+            "name": "Star Burst",
+            "productTypeId": 3
+        }
+    ],
+    
+    "productType": [
+        {
+            "id": 1,
+            "type": "chocolate"
+            
+        },
+        {
+            "id": 2,
+            "type": "hard candy"
+        },
+        {
+            "id": 3,
+            "type": "gummie"
+        }
+    ],
+
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 4,
+            "locationId": 1,
+            "productId": 2,
+            "productTypeId": 2,
+            "dateCompleted": "2021-05-26"
+        },
+        {
+            "id": 1,
+            "customerId": 2,
+            "locationId": 3,
+            "productId": 1,
+            "productTypeId": 1,
+            "dateCompleted": "2021-05-26"
+        }
+    ]
+}
